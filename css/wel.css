@@ -280,11 +280,12 @@ aside {
     }
     
     .account .policies{
+        font-weight:bolder;
         font-size: 40px;
       }
       
       .pol{
-        font-weight:bolder;
+        
         font-size: 35px;
         white-space: pre;
         line-height:normal;
@@ -333,7 +334,7 @@ aside {
         position: relative;
         top: 80px;
         left: 130px;
-        font-size: 25px;
+        font-size: 35px;
       }
       
     .footer {
@@ -350,14 +351,15 @@ aside {
     }
     
     .account .policies{
+        font-weight: bolder;
         font-size: 40px;
       }
       
       .pol{
-        font-weight: bolder;
+        
         font-size: 35px;
         white-space: pre;
-        line-height: normal;
+        line-height: 2rem;
       }
     
     
