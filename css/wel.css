@@ -284,8 +284,10 @@ aside {
       }
       
       .pol{
+        font-weight:bolder;
         font-size: 35px;
         white-space: pre;
+        line-height:normal;
       }
     
 
@@ -352,16 +354,19 @@ aside {
       }
       
       .pol{
+        font-weight: bolder;
         font-size: 35px;
         white-space: pre;
+        line-height: normal;
       }
     
     
     .terms{
         position: relative;
         top: 50px;
-        left: 60px;
+        left: 120px;
         font-size: 35px;
+        white-space: nowrap;
       }
 
       .und{
@@ -369,7 +374,7 @@ aside {
         height: 100%;
         position: relative;
         top: 90px;
-        left: 10px;
+        left: 30px;
       }
        
 
@@ -395,7 +400,7 @@ aside {
         height: 100%;
         position: relative;
         top: 90px;
-        left: 30px;
+        left: 50px;
       }
       
       
@@ -403,7 +408,8 @@ aside {
         position: relative;
         top: 60px;
         left: 70px;
-        font-size: 25px;
+        font-size: 35px;
+        white-space: nowrap;
       }
       
     .footer {
