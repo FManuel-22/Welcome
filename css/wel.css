@@ -292,14 +292,14 @@ aside {
        
 
     .top-container{
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: 450px;
     }
 
     .middle-container{
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: 450px;
@@ -326,17 +326,17 @@ aside {
   
 }
 
-@media (max-width: 426px) {
+@media (max-width: 606px) {
     
     .terms{
         position: relative;
         top: 50px;
         left: 60px;
-        font-size: 15px;
+        font-size: 25px;
       }
 
       .und{
-        width: 75%;
+        width: 85%;
         height: 100%;
         position: relative;
         top: 90px;
@@ -345,22 +345,22 @@ aside {
        
 
     .top-container{
-        width: 130%;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        height: 250px;
+        height: 400px;
     }
 
     .middle-container{
-        width: 130%;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        height: 250px;
+        height: 400px;
       }
      
       
     .un{
-        width: 75%;
+        width: 85%;
         height: 100%;
         position: relative;
         top: 90px;
@@ -372,7 +372,7 @@ aside {
         position: relative;
         top: 60px;
         left: 70px;
-        font-size: 15px;
+        font-size: 25px;
       }
       
     .footer {
