@@ -241,10 +241,6 @@ aside {
         margin-top: 40px;
     }
 
-    .date, .time {
-        display: none;
-    }
-
     .bars, .close {
         display: block;
     }
