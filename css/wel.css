@@ -222,6 +222,7 @@ aside {
 
 
 @media (max-width: 900px) {
+
     .container {
         display: block;
         
@@ -241,9 +242,6 @@ aside {
         margin-top: 40px;
     }
 
-    .date, .time {
-        display: none;
-    }
 
     .bars, .close {
         display: block;
@@ -275,7 +273,7 @@ aside {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
 
     .terms{
         position: relative;
@@ -296,6 +294,7 @@ aside {
         display: flex;
         flex-direction: column;
         height: 450px;
+        box-shadow: none;
     }
 
     .middle-container{
@@ -303,6 +302,7 @@ aside {
         display: flex;
         flex-direction: column;
         height: 450px;
+        box-shadow: none;
       }
      
       
@@ -349,6 +349,7 @@ aside {
         display: flex;
         flex-direction: column;
         height: 400px;
+        box-shadow: none;
     }
 
     .middle-container{
@@ -356,6 +357,7 @@ aside {
         display: flex;
         flex-direction: column;
         height: 400px;
+        box-shadow: none;
       }
      
       
