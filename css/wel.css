@@ -374,7 +374,7 @@ aside {
       }
 
       .und{
-        width: 100%;
+        width: 110%;
         height: 180%;
         position: relative;
         top: 90px;
@@ -384,24 +384,24 @@ aside {
        
 
     .top-container{
-        width: 100%;
+        width: 180%;
         display: flex;
         flex-direction: column;
-        height: 400px;
+        height: 420px;
         
     }
 
     .middle-container{
-        width: 100%;
+        width: 180%;
         display: flex;
         flex-direction: column;
-        height: 400px;
+        height: 420px;
         
       }
      
       
     .un{
-        width: 100%;
+        width: 110%;
         height: 180%;
         position: relative;
         top: 90px;
