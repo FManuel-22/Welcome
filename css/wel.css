@@ -388,6 +388,7 @@ aside {
         display: flex;
         flex-direction: column;
         height: 450px;
+        box-shadow: none;
         
     }
 
@@ -396,6 +397,7 @@ aside {
         display: flex;
         flex-direction: column;
         height: 440px;
+        box-shadow: none;
         
       }
      
