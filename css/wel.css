@@ -315,11 +315,10 @@ aside {
     }
 
     .middle-container{
-        width: 100%;
+        width: 150%;
         display: flex;
         flex-direction: column;
         height: 450px;
-        box-shadow: none;
       }
      
       
