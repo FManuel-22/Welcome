@@ -51,21 +51,21 @@ aside {
 }
 
 .sidebar ul li {
-    margin-top: 50px;
-    font-size: 21px;
+    margin-top: -10px;
+    font-size: 18px;
 
 }
 
 .sidebar .logout {
-    margin-top: 340px;
+    margin-top: 420px;
     position: absolute;
     left: 30px;
 }
 
 .sidebar .set {
-    margin-top: 120px;
+    margin-top: 30px;
     position: absolute;
-    left: 30px;
+    left: 25px;
 }
 
 .temp, .set, .logout{
@@ -104,29 +104,29 @@ aside {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    margin-top: 20px;
+    margin-top: -40px;
     width: 90%;
     color:  #111F4D;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .account .policies{
-    margin-top: -45px;
+    margin-top: -80px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     color: #111F4D;
   }
   
   .pol{
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5rem;
     color: #111F4D;
   }
   
   .top-container{
-    margin-top: 20px;
-    width: 75%;
+    margin-top: 10px;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     height: 250px;
@@ -134,24 +134,37 @@ aside {
     border-radius: 10px;
   }
   
+  .thin{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plus{
+      width: 24px;
+      position: relative;
+      left: 150px;
+      top: 70px;
+  }
+
+
   .und{
     position: relative;
     top: 20px;
-    left: 190px;
+    left: 230px;
   }
   
   .terms{
     position: relative;
-    top: 140px;
+    top: 120px;
     left: 80px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     color: #111F4D;
   }
   
   .middle-container{
-    margin-top: 30px;
-    width: 75%;
+    margin-top: 20px;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     height: 250px;
@@ -165,13 +178,25 @@ aside {
     left: 300px;
   }
   
+  .thi{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plu{
+      width: 24px;
+      position: absolute;
+      left: 470px;
+      top: 590px;
+  }
+
   
   .privacy{
     position: relative;
-    top: 160px;
-    left: 80px;
+    top: 150px;
+    left: 100px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     color: #111F4D;
   }
   
@@ -239,7 +264,9 @@ aside {
     }
 
     .sidebar .logout {
-        margin-top: 40px;
+        margin-top: 140px;
+        position: relative;
+        left: 24px;
     }
 
     .bars, .close {
@@ -260,7 +287,7 @@ aside {
     }
 
     .bars {
-       margin-left: 10px; 
+       margin-left: 40px; 
     }
 
     .bars i {
@@ -272,21 +299,28 @@ aside {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     .header{
-        font-size: 45px;
+        font-size: 35px;
         white-space: nowrap;
+    }
+
+    .user {
+      position: absolute;
+      left: 500px;
     }
     
     .account .policies{
         font-weight:bolder;
-        font-size: 40px;
+        font-size: 30px;
       }
+
+      
       
       .pol{
         
-        font-size: 35px;
+        font-size: 23px;
         white-space: pre;
         line-height:normal;
       }
@@ -299,24 +333,39 @@ aside {
         font-size: 35px;
       }
 
+      .plus{
+        position: relative;
+        left: 290px;
+        top: 60px;
+        width: 36px;
+    }
+  
+    .plu{
+      position: relative;
+      left: 290px;
+      top: 40px;
+      width: 36px;
+  }
+
       .und{
-        width: 100%;
-        height: 150%;
+        width: 110%;
+        height: 135%;
         position: relative;
         top: 150px;
-        left: -10px;
+        left: -60px;
       }
        
 
     .top-container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: 450px;
-        box-shadow: none;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      height: 450px;
+      box-shadow: none;
     }
 
     .middle-container{
+      margin-top: 210px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -326,8 +375,8 @@ aside {
      
       
     .un{
-        width: 100%;
-        height: 150%;
+        width: 90%;
+        height: 140%;
         position: relative;
         top: 160px;
         left: 50px;
@@ -337,7 +386,7 @@ aside {
       .privacy{
         position: relative;
         top: 80px;
-        left: 130px;
+        left: 150px;
         font-size: 35px;
       }
       
@@ -347,7 +396,7 @@ aside {
   
 }
 
-@media (max-width: 467px) {
+@media (max-width: 400px) {
 
     .header{
         font-size: 45px;
@@ -361,16 +410,21 @@ aside {
       
       .pol{
         
-        font-size: 35px;
+        font-size: 37px;
         white-space: pre;
-        line-height: 2rem;
+        line-height: 2.5rem;
       }
     
+      .user {
+        position: absolute;
+        left: 1000px;
+      }
     
+      
     .terms{
         position: relative;
         top: 50px;
-        left: 120px;
+        left: 300px;
         font-size: 35px;
         white-space: nowrap;
       }
@@ -379,11 +433,17 @@ aside {
         width: 100%;
         height: 150%;
         position: relative;
-        top: 90px;
-        left: 30px;
+        top: 110px;
+        left: 220px;
         
       }
-       
+      
+      .plus{
+        position: relative;
+        left: 500px;
+        top: 20px;
+        width: 36px;
+    }
 
     .top-container{
         width: 120%;
@@ -410,18 +470,25 @@ aside {
         width: 110%;
         height: 150%;
         position: relative;
-        top: 90px;
-        left: 90px;
+        top: 100px;
+        left: 300px;
       }
       
       
       .privacy{
         position: relative;
-        top: 60px;
-        left: 90px;
+        top: 40px;
+        left: 350px;
         font-size: 35px;
         white-space: nowrap;
       }
+
+      .plu{
+        position: relative;
+        left: 480px;
+        top: 20px;
+        width: 36px;
+    }
       
     .footer {
         margin-top: 240px;
